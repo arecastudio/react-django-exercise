@@ -13,4 +13,8 @@ export class Leads extends Component{
   }
 }
 
+const mapStateToProps=state=>({
+  leads:state.leads.leads
+});
+
 export default connect(Leads);
